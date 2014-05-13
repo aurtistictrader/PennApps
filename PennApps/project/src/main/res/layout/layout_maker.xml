@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:id="@+id/widget_panel"
+        android:background="@color/darkGrey">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Widgets Panel"
+            android:textSize="@dimen/title_font_size"
+            android:id="@+id/widget_title" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/widget"
+            android:background="@drawable/ic_launcher"
+            android:layout_marginTop="40dp">
+        </ImageView>
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/layout_panel"
+        android:background="@color/orange"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Layout Panel"
+            android:textSize="@dimen/title_font_size"
+            android:id="@+id/layout_title" />
+    </GridLayout>
+</LinearLayout>

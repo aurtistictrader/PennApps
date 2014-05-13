@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/Michael/AndroidStudioProjects/OnScreenJoystickDemo/app/src/main/res" >
+            <file
+                name="joystick"
+                path="/Users/Michael/AndroidStudioProjects/OnScreenJoystickDemo/app/src/main/res/drawable/joystick.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="joystick_bg"
+                path="/Users/Michael/AndroidStudioProjects/OnScreenJoystickDemo/app/src/main/res/drawable/joystick_bg.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/Michael/AndroidStudioProjects/OnScreenJoystickDemo/app/src/main/res/drawable-hdpi/icon.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/Michael/AndroidStudioProjects/OnScreenJoystickDemo/app/src/main/res/drawable-ldpi/icon.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/Michael/AndroidStudioProjects/OnScreenJoystickDemo/app/src/main/res/drawable-mdpi/icon.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="main"
+                path="/Users/Michael/AndroidStudioProjects/OnScreenJoystickDemo/app/src/main/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/Users/Michael/AndroidStudioProjects/OnScreenJoystickDemo/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="app_name" >OnScreenJoystickDemo
+                </string>
+                <string name="hello" >Hello World, main!
+                </string>
+            </file>
+        </source>
+        <source path="/Users/Michael/AndroidStudioProjects/OnScreenJoystickDemo/app/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/Michael/AndroidStudioProjects/OnScreenJoystickDemo/app/src/debug/res" />
+    </dataSet>
+
+</merger>

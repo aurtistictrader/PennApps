@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PennApps</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="greater_than">&gt;</string>
+    <string name="less_than">&lt;</string>
+
+    <string-array name="preset_layouts">
+        <item>Gameboy</item>
+        <item>DDR</item>
+        <item>Netflix</item>
+        <item>YouTube</item>
+    </string-array>
+
+</resources>

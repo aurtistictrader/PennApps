@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: DraggableGridView">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/project/src/main/libs/DraggableGridView.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
